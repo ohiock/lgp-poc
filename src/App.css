@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #024959;
+  color: #404040;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+}
+
+.top-container {
+  display: flex;
+  background: #f2efdc;
+}
+
+.logo-container {
+  padding: 1.5rem;
+  border-right: 1px solid #d2d0c0;
+  color: #f24c27;
+  line-height: .85;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.main-nav-container {
+  display: inline-block;
+}
+
+nav {
+  height: 100%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  height: 100%;
+  border-right: 1px solid #d2d0c0;
+  color: #f24c27;
+  text-align: center;
+}
+
+nav li a, .settings-container a {
+  display: inline-block;
+  padding: 1.25rem 2rem;
+  font-weight: bold;
+  color: #f24c27;
+  text-decoration: none;
+}
+
+nav li a:hover, .settings-container a:hover {
+  border-bottom: .5rem solid #f24c27;
+}
+
+nav li a:active, .settings-container a:active {
+  border-bottom: .5rem solid #f24c27;
+  opacity: .5;
+}
+
+nav li a.selected, .settings-container a.selected {
+  border-bottom: .5rem solid #f24c27;
+}
+
+svg {
+  fill: #f24c27;
+  height: 1.95rem;
+}
+
+.settings-container {
+  margin-left: auto;
+  border-left: 1px solid #d2d0c0;
+  color: #f24c27;
+  text-align: center;
+}
+
+.main-container {
+  font-size: 1.6rem;
+}
+
+.header-background {
+  position: absolute;
+  display: inline-block;
+  height: 25rem;
+  width: 100%;
+  background: #037e8c;
+  z-index: -1;
+}
+
+.header-container {
+  text-align: center;
+}
+
+.content-container {
+  margin: 0 5rem;
+  padding: 2rem;
+  background: #f2efdc;
+}
+
+.header-container h1 {
+  margin: 3rem 0;
+  padding: 0;
+  font-size: 6.5rem;
+  color: #f2efdc;
+  text-transform: uppercase;
+}
+
+h2 {
+  display: inline-block;
+  padding: .25rem 1.5rem;
+  margin: 0 0 2rem 0;
+  font-size: 3.2rem;
+  background: #404040;
+  color: #f2efdc;
+  text-transform: uppercase;
+}
+
+.inner-container {
+  height: 35rem;
+}
+
+.table-container {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+}
+
+.table-container table {
+  width: 100%;
+}
+
+.table-container table td {
+  padding: .25rem .5rem;
+  font-size: 1.2rem;
+}
+
+.table-container thead, .table-container tfoot td {
+  color: #f24c27;
+  font-style: italic;
+}
+
+.table-container thead td {
+  border-bottom: 1px solid #d2d0c0;
+}
+
+.table-container table .time {
+  width: 25%;
+  text-align: right;
+}
+
+.table-container table .deescription {
+  width: 60%;
+}
+
+.table-container table .size {
+  width: 15%;
+  text-align: center;
+}
+
+.table-container table .alternate {
+  background: #d2d0c0;
+}
+
+.table-container tfoot td {
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.table-container tfoot td a {
+  color: #f24c27;
+  text-decoration: none;
+}
+
+.table-container tfoot td a {
+  color: #f24c27;
+  text-decoration: none;
+}
+
+.calendar-container {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  padding: 0 0 0 2rem;
+}
+
+.calendar-container table {
+  width: 100%;
+}
+
+.calendar-container td {
+  padding: .5rem .5rem 2rem 0;
+  background: #d2d0c0;
+  text-align: right;
+}
+
+.calendar-container tbody td:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+
+.calendar-container td.out {
+  opacity: .5;
+}
+
+.calendar-container td.selected {
+  background: #f24c27;
+  color:  #f2efdc;
+}
+
+.calendar-container td.selected:hover {
+  opacity: 1;
+}
+
+.calendar-container thead td {
+  padding: .5rem 0;
+  background: #f24c27;
+  color:  #f2efdc;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
